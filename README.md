@@ -1,0 +1,2 @@
+# Easings
+A C++ Header-only implementation of the Easing functions found on easings.net
