@@ -1,10 +1,10 @@
-#pragma once
-
 #ifndef _USE_MATH_DEFINES
 #define _USE_MATH_DEFINES
 #endif
 
 #include <math.h>
+
+#include "Easings.h"
 
 namespace Easings
 {
@@ -112,7 +112,7 @@ namespace Easings
 			float t2 = t * t;
 			return t * t2 * t2;
 		}
-		
+
 		float Out(float t)
 		{
 			float t2 = (--t) * t;
